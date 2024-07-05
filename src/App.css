@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  font-family: Inter, "sans-serif";
+}
+.app--container{
+  margin: 0px auto;
+  width: 550px;
+}
+nav{
+  background-color: #F55A5A;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 550px;
+  height: 55px;
+  flex-shrink: 0;
+} 
+
+.nav--text{
+  color: #FFF;
+  font-family: Inter;
+  font-size: .9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.085px;
+}
+
+.globe--icon{
+  margin-right: 8px;
+}
