@@ -1,5 +1,6 @@
 export default [
     {
+        id: 1,
         title: "Mount Fuji",
         location: "Japan",
         googleMapsUrl: "https://maps.app.goo.gl/T13ucVwYCzRhqL7PA",
@@ -9,6 +10,7 @@ export default [
         imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
     },
     {
+        id: 2,
         title: "Sydney Opera House",
         location: "Australia",
         googleMapsUrl: "https://maps.app.goo.gl/u9W1DUDnJ9E2cKoZ9",
@@ -18,6 +20,7 @@ export default [
         imageUrl: "https://source.unsplash.com/JmuyB_LibRo"
     },
     {
+        id: 3,
         title: "Geirangerfjord",
         location: "Norway",
         googleMapsUrl: "https://maps.app.goo.gl/JWy1MY7gT6HPmLZm6",
