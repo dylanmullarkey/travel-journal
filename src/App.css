@@ -6,6 +6,12 @@ body{
   margin: 0px auto;
   width: 550px;
 }
+
+.cards--container{
+  display: flex;
+  gap: 45px;
+  flex-direction: column;
+}
 nav{
   background-color: #F55A5A;
   display: flex;
@@ -16,6 +22,7 @@ nav{
   width: 550px;
   height: 55px;
   flex-shrink: 0;
+  margin-bottom: 45px;
 } 
 
 .nav--text{
@@ -30,4 +37,90 @@ nav{
 
 .globe--icon{
   margin-right: 8px;
+}
+
+.card{
+  margin: 0 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  height: 168px;
+}
+
+.card--trip-img{
+  width: 125px;
+  height: 168px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.card--info-container{
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0;
+}
+
+.card--info-container > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 4px;
+}
+
+.card--icon-img{
+  width: 7px;
+  height: 9.545px;
+  flex-shrink: 0;
+}
+
+.card--country{
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.741px;
+}
+
+.card--link{
+  color: #918E9B;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.card--title{
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+.card--dates{
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card--description{
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
 }
